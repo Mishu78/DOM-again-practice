@@ -4,6 +4,10 @@ const value=Object.values(keys);
 //const freeze=Object.freeze(keys);
 //delete keys.des;
 keys.name2='sapa';
+
+keys.name3='sipi mishi';
+Object.seal(keys);
+keys.name3="mishi sipi"
 console.log(key);
 console.log(value);
 console.log(keys);
