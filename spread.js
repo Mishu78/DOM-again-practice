@@ -13,7 +13,8 @@ function sum(x,y,z){
 const sumation=sum(...params);
 console.log(sumation);
 
-const array=[23,5,8,59,67,390,57,6939,48,284];
+const array=[23,5,8,59,67,390,57,6939,284];
 const array2=[...array];
 array2.push(48);
+console.log(array);
 console.log(array2);
