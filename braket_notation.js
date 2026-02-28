@@ -8,6 +8,7 @@ const identity = {name:'mishu',
         mother:{
             name:"rehena",
             age:60,
+            work:"housewife",
         }
     } };
 //console.log(identity[1]);
