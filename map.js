@@ -20,3 +20,10 @@ const products=[
 ];
 const prices=products.map(prd=>prd.price*2);
 console.log(prices);
+
+const names2 = products.map(pd=>{
+    const upperCaseName=pd.name.toUpperCase();
+    console.log("uppercase of keys",upperCaseName);
+    return upperCaseName;
+})
+
