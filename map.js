@@ -8,3 +8,7 @@ const doubled = numbers.map(doubleIt);
 const square = numbers.map(num => num*num);
 console.log(doubled);
 console.log(square);
+
+const names=['mishu','sapa','mishi','nur','nesa'];
+const firstLetter= names.map(frnd=>frnd[0]);
+console.log(firstLetter);
