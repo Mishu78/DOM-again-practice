@@ -12,3 +12,11 @@ console.log(square);
 const names=['mishu','sapa','mishi','nur','nesa'];
 const firstLetter= names.map(frnd=>frnd[0]);
 console.log(firstLetter);
+
+const products=[
+    {name:'laptop',price:450000},
+    {name:'pc',price:40000},
+    {name:'tv',price:50000},
+];
+const prices=products.map(prd=>prd.price*2);
+console.log(prices);
