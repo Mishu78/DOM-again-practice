@@ -7,3 +7,5 @@ const students=[
     {name:'sajed',age:15},
 ];
 
+const studentName=students.find(std=>std.name==='naved');
+console.log(studentName);
