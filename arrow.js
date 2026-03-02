@@ -25,3 +25,7 @@ const divide =(x,y) => {
 }
 
  console.log(divide(10,2));
+
+ document.getElementById('btn').addEventListener('click',(event) => {})
+
+
